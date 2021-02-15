@@ -31,6 +31,6 @@ int main ()
     nickels = total/5;
     total = total - nickels*5;
 
-    cout << "The coins are: " << quarters << " quarters, " << dimes << " dimes, " << nickels << " nickels, and " << total << " pennies.";
+    cout << "The coins are " << quarters << " quarters, " << dimes << " dimes, " << nickels << " nickels and " << total << " pennies";
     return 0;
 }
